@@ -1,0 +1,6 @@
+Easy serial connection between board running Linux based os such as RaspberryPi and controllers running micropython
+
+Root directory contains the necessary algorithms to run subprocess and connection to the micropython board
+    main.py contains example for led pwm control sending the values 0 to 255 over serial connection to mpboard
+
+Controller directory should contain the files to run on micropython
